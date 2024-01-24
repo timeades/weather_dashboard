@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <!-- Full Width Header -->
+    <header class="bg-primary text-white text-center py-3 header">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+
+            <!-- Left Sidebar -->
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title sidebarTitle"> <i class="fas fa-search"></i> Search for a City:</h2>
+                        <input type="text" class="form-control mb-2 city" placeholder="Enter your city, town or post code......" aria-label="searchbox">
+                        <button class="btn btn-primary btn-block mb-2 searchBtn">Search</button>
+                        <!-- insert a divider -->
+                        <hr>
+                        <div> 
+                            <h6 class="card-title recentSearches"></i> Recent searches:</h6>
+                        </div>
+                        <div>
+                            <!-- Recent searches to returned here -->
+                            <button class="btn btn-secondary btn-block mb-2">London</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <!-- Full Width Card -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Full Width Card</h5>
+                        <!-- Add content for full-width card here -->
+                    </div>
+                </div>
+                <!-- Section Title -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="sectionTitle">5-Day Forecast:</h3>
+                    </div>
+                <!-- 5 Cards underneath -->
+                <div class="row">
+                    <div class="col-md-2 mb-3">
+                        <div class="card weather">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <!-- Add content for Card 1 here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <div class="card weather">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <!-- Add content for Card 2 here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <div class="card weather">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <!-- Add content for Card 3 here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <div class="card weather">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <!-- Add content for Card 4 here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                        <div class="card weather">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <!-- Add content for Card 5 here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Bootstrap JS and Popper.js (needed for certain Bootstrap features) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
