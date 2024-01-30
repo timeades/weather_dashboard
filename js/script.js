@@ -49,8 +49,6 @@ $(document).ready(function () {
             console.log(data);
             // Save to local storage
             localStorage.setItem('weather', JSON.stringify(data));
-            // Get from local storage
-            var weather = JSON.parse(localStorage.getItem('weather'));
           });
       });
   });
