@@ -67,8 +67,8 @@ $(document).ready(function () {
     $('#current-weather').html(`
       <h5 class="card-title">${data.name}, ${data.sys.country}</h5>
       <p class="card-text">Temp: ${Math.round(data.main.temp)} °C</p>
-      <p class="card-text">Humidity: ${data.main.humidity}</p>
-      <p class="card-text">Wind Speed: ${data.wind.speed}</p>
+      <p class="card-text">Humidity: ${data.main.humidity} %</p>
+      <p class="card-text">Wind Speed: ${data.wind.speed} KPH</p>
     `);
   }
 
