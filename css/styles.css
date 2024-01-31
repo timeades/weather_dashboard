@@ -24,6 +24,20 @@ body {
     border-radius: 10px;
 }
 
+#current-weather {
+    padding: 20px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#current-weather h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .searchBtn {
     background-color: #007bff;
     border-color: #007bff;
